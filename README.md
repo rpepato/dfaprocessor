@@ -1,7 +1,7 @@
 DFAProcessor
 ============
 
-A Ruby library for processin of deterministc finit automatons (DFAs)
+A Ruby library for processing of deterministc finit automatons (DFAs)
 
 DFAProcessor does the job of analyze a chain of symbols against a DFA and answer if the chain is accepted or rejecte by
 the automaton. To use this function, you should provide: 
