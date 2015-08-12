@@ -4,11 +4,11 @@ DFAProcessor
 A Ruby library for processing of deterministc finit automatons (DFAs)
 
 DFAProcessor does the job of analyze a chain of symbols against a [DFA](http://en.wikipedia.org/wiki/Deterministic_finite_automaton) and answer if the chain is accepted or rejected by
-the automaton. To use this library, you should provide: 
+the automaton. To use this library, you should provide:
   * a set of states (containing one initial state and at least one final state)
   * a set of transition functions (to determine the next state considering the current symbol in the chain)
   * a symbol chain (a string) to be validated
-  
+
 Sample Usage
 ------------
 ```ruby
@@ -33,8 +33,11 @@ else
   p "Rejected"
 end
 ```
+Specs
+------------
+To run the specs:
 
-
-
-
-
+```ruby
+bundle
+rspec
+```
